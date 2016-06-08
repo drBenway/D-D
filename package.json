@@ -1,0 +1,22 @@
+{
+  "name": "d-d",
+  "version": "1.0.0",
+  "description": "D20 system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drBenway/D-D.git"
+  },
+  "keywords": [
+    "D20"
+  ],
+  "author": "drBenway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drBenway/D-D/issues"
+  },
+  "homepage": "https://github.com/drBenway/D-D#readme"
+}
