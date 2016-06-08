@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/drBenway/D-D/issues"
   },
-  "homepage": "https://github.com/drBenway/D-D#readme"
+  "homepage": "https://github.com/drBenway/D-D#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.72.0"
+  },
+  "scripts": {
+    "test": "jasmine-node tests"
+  }
 }
