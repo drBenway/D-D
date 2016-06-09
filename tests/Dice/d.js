@@ -107,7 +107,7 @@ describe('dice', function () {
             expect (result1).toBe("one.D.four");
             expect (result2).toBe("two.D.eight");
             // test wrong string
-            expect(function(){dice.fromString("oneDfour");}).toThrow("fromString recieved an invalid string. expl: fromString('1D6').")
+            expect(function(){dice.fromString("oneDfour");}).toThrow();
         });
     });
 
