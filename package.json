@@ -4,7 +4,9 @@
   "description": "D20 system",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine /tests/**/*.js"
+    "test": "jasmine /tests/**/*.js",
+    "docs": "jsdoc -d 'docs'",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
