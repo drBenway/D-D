@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine /tests/**/*.js",
-    "docs": "jsdoc -d 'docs'",
-    "lint": "eslint -c conf/.eslintrc src/**/*.js"
+    "docs": "jsdoc -r src/  -d docs/",
+    "lint": "eslint -c conf/.eslintrc src/**/*.js",
+    "coverage" : "istanbul cover node_modules/jasmine/bin/jasmine.js /tests/**/*.js"
   },
   "repository": {
     "type": "git",
