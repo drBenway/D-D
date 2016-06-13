@@ -1,12 +1,17 @@
-var D = require('./D');
-/*
-* DSL like syntax for rolling dice
-* @returns {}
-* @example:
-* var roll = require('D-dsl');
-* var attackroll = roll.one.D.twenty;
-* => attackroll will contain a value between 1 and 20
+/**
+ * Dice module.
+ * @module Dice/D-dsl
+ *
+ * DSL like syntax for rolling dice
+ * @returns {}
+ * @example:
+ * var roll = require('D-dsl');
+ * var attackroll = roll.one.D.twenty;
+ * => attackroll will contain a value between 1 and 20
  */
+
+var D = require('./D');
+
 module.exports = (function(){
     return {
         one: {
