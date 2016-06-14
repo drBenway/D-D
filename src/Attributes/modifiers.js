@@ -2,7 +2,7 @@
  * Modifiers module
  * @module Attributes/modifiers
  *
-module.exports = function() {
+
     /*
      * used to get the bonuses for stats
      * @example:
@@ -11,10 +11,8 @@ module.exports = function() {
      * var attackrollModifier = modifiers(STATS.getSTR());
      */
 
-    this.getModifier = function(abilityScore){
-        return Math.round((abilityscore - 10) / 2);
+    var getModifier = function(abilityScore){
+        return Math.round((abilityScore - 10) / 2);
     }
 
-
-
-};
+module.exports = getModifier;
