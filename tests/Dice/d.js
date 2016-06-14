@@ -1,5 +1,5 @@
 var die = require("../../src/Dice/D");
-var util = require("../util/util");
+var util = require("../Util/util");
 describe('dice', function(){
     describe('die', function(){
         it('should return a value within the bounds of the dieroll', function(){
