@@ -11,8 +11,8 @@
      * var attackrollModifier = modifiers(STATS.getSTR());
      */
 
-    var getModifier = function(abilityScore){
+    let getModifier = function(abilityScore){
         return Math.round((abilityScore - 10) / 2);
-    }
+    };
 
 module.exports = getModifier;
