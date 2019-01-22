@@ -4,9 +4,11 @@
   "description": "D20 system",
   "main": "index.js",
   "scripts": {
+
     "test": "mocha ./tests/**/*.spec.js",
     "docs": "jsdoc -d 'docs'",
     "lint": "eslint -c conf/.eslintrc src/**/*.js"
+
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,6 @@
     "chai": "^4.2.0",
     "eslint": "^2.11.1",
     "istanbul": "^0.4.3",
-    "jasmine": "^2.4.1",
     "jsdoc": "^3.4.0",
     "mocha": "^5.2.0",
     "request": "^2.72.0"
